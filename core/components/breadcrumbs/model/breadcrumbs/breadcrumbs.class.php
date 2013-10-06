@@ -149,7 +149,7 @@ class BreadCrumbs {
             'bcTplCrumbLast' => '<li class="B_lastCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">[[+text]]</li>',
             'bcTplCrumbMax' => '<li class="B_hideCrumb" itemscope="itemscope" itemtype="http://data-vocabulary.org/Breadcrumb">[[+text]]</li>',
             'bcTplCrumbLink' => '<a class="B_crumb" itemprop="url" rel="[[+description]]" href="[[~[[+resource]]]]"><span itemprop="title">[[+text]]</span></a>',
-            'bcTplCrumbOuter' => '<ul class="B_crumbBox">[[+text]]</ul>',
+            'bcTplCrumbOuter' => '<ul class="B_crumbBox breadcrumb">[[+text]]</ul>',
             'bcTplCrumb' => '<li itemscope="itemscope" class="B_crumb" itemtype="http://data-vocabulary.org/Breadcrumb">[[+text]]</li>',
         ),$config);
         $this->_crumbs = array();

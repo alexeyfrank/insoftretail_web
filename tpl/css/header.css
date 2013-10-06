@@ -55,4 +55,14 @@ header {
   margin-top: 64px;
 }
 
+.breadcrumb {
+  background: none;
+  line-height: 35px;
+  color: white;
+}
+
+.breadcrumb a {
+  color: white;
+  text-shadow: none;
+}
 
