@@ -1,0 +1,25 @@
+.mt5 {
+  margin-top: 5px;
+}
+.round-block {
+  border-radius: 10px;
+  border: 1px solid gray;
+  padding: 10px;
+}
+body {
+	padding-bottom: 40px;
+  background: #fefafa;
+}
+
+#content {
+	min-height: 300px;
+}
+
+footer {
+	border-top: 1px solid #efefef;
+	margin-top: 100px;
+	padding-top: 5px;
+}
+
+div.pagination {text-align:center;}
+

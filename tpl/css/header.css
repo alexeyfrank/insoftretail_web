@@ -1,0 +1,58 @@
+
+header {
+  height: 244px;
+}
+
+.logo-block {
+  position: absolute;
+  top:0;
+  left:0;
+  background: white;
+  height: 165px;
+  width: 350px;
+  border-right: 1px solid gray;
+  border-bottom: 1px solid gray;
+  -webkit-border-bottom-right-radius: 50px;
+  -moz-border-radius-bottomright: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.logo-block a {
+  display:block;
+  width: 182px;
+  height: 148px;
+  background: url('/tpl/images/logo.jpg');
+  margin-left: 130px;
+  text-indent: -9999px;
+}
+
+.navbar-top {
+  margin-top: 14px;
+  margin-bottom: 0;
+}
+
+.navbar-top .navbar-inner {
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+  background-image: none;
+  background: none;
+}
+
+.nav-container {
+  background: white;
+}
+.nav-block {
+  height: 70px;
+}
+
+.breadcrumbs-block {
+  height: 44px;
+  background: #f50303;
+}
+
+.call-block {
+  margin-top: 64px;
+}
+
+
