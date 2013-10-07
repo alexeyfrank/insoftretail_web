@@ -3,9 +3,16 @@
 }
 .round-block {
   border-radius: 10px;
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
+  background: white;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
+}
+
+.round-block > div {
   padding: 10px;
 }
+
 body {
 	padding-bottom: 40px;
   background: #fefafa;

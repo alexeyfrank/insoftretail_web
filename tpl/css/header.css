@@ -10,11 +10,14 @@ header {
   background: white;
   height: 165px;
   width: 350px;
-  border-right: 1px solid gray;
-  border-bottom: 1px solid gray;
+  /* border-right: 1px solid gray; */
+  /* border-bottom: 1px solid gray; */
   -webkit-border-bottom-right-radius: 50px;
   -moz-border-radius-bottomright: 50px;
   border-bottom-right-radius: 50px;
+
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .logo-block a {
@@ -49,6 +52,8 @@ header {
 .breadcrumbs-block {
   height: 44px;
   background: #f50303;
+  -webkit-box-shadow: 1px 1px 1px 1px #ccc;
+  box-shadow: 1px 1px 1px 1px #ccc;
 }
 
 .call-block {
@@ -66,3 +71,7 @@ header {
   text-shadow: none;
 }
 
+header .banner-block {
+  height: 115px;
+  background: gray;
+}
