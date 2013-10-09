@@ -1,0 +1,9 @@
+footer {
+  background: #292929;
+  height: 72px;
+}
+
+footer .container {
+  background: #242424;
+  height: 100%;
+}
