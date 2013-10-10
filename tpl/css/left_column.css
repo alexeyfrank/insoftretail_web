@@ -2,3 +2,60 @@
   height: 400px;
   background: gray;
 }
+
+.left-nav-block .icon-chevron-right {
+  text-align: center;
+  float: right;
+  margin-top: 2px;
+  margin-right: -6px;
+  opacity: .25;
+}
+
+@font-face {
+	font-family: 'icomoon';
+	src:url('/tpl/fonts/icomoon.eot');
+	src:url('/tpl/fonts/icomoon.eot?#iefix') format('embedded-opentype'),
+		url('tpl/fonts/icomoon.woff') format('woff'),
+		url('tpl/fonts/icomoon.ttf') format('truetype'),
+		url('tpl/fonts/icomoon.svg#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+[class*="icon2-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	-webkit-font-smoothing: antialiased;
+}
+.icon2-globe:before {
+	content: "\e000";
+}
+.icon2-wrench:before {
+	content: "\e001";
+}
+.icon2-stats:before {
+	content: "\e002";
+}
+.icon2-wrench-2:before {
+	content: "\e003";
+}
+.icon2-home:before {
+	content: "\e004";
+}
+.icon2-home-2:before {
+	content: "\e005";
+}
+.icon2-user:before {
+	content: "\e006";
+}
+

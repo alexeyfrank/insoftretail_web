@@ -42,6 +42,20 @@ header {
   background: none;
 }
 
+.navbar-top .nav>.active>a,
+.navbar-top .nav>.active>a:hover,
+.navbar-top .nav>.active>a:focus {
+  text-decoration: underline;
+  border: none;
+  box-shadow: none;
+  background: none;
+}
+
+.navbar-top .nav>li>a {
+  padding-left: 50px;
+  padding-right: 20px;
+}
+
 .nav-container {
   background: white;
 }
@@ -58,6 +72,44 @@ header {
 
 .call-block {
   margin-top: 64px;
+}
+
+.call-block.btn-group a {
+  width: 50%;
+  padding: 15px 0;
+  background: none;
+  border: none;
+  font-size: 17px;
+}
+
+.call-block.btn-group>.btn+.btn {
+  margin-left: 0;
+}
+
+.btn-group>.btn:first-child {
+  margin-left: 0;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -webkit-border-top-left-radius: 10px;
+  border-top-left-radius: 10px;
+  -moz-border-radius-bottomleft: 10px;
+  -moz-border-radius-topleft: 10px;
+}
+
+.call-block.btn-group>.btn:last-child,
+.call-block.btn-group>.dropdown-toggle {
+  -webkit-border-top-right-radius: 10px;
+  border-top-right-radius: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  -moz-border-radius-topright: 10px;
+  -moz-border-radius-bottomright: 10px;
+}
+
+.call-block a:hover {
+  background: red;
+  color: white;
+  text-shadow: none;
 }
 
 .breadcrumb {
