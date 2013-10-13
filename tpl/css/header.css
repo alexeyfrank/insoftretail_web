@@ -70,6 +70,13 @@ header {
   box-shadow: 1px 1px 1px 1px #ccc;
 }
 
+.phone-block {
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
 .call-block {
   margin-top: 64px;
 }
