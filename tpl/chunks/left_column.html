@@ -1,21 +1,24 @@
-<div class="left-nav-block round-block">
-  <ul class="nav nav-tabs nav-stacked">
+<form class="form-search">
+  <div class="input-append no-padding">
+  <input type="text" name="search" class="search-query">
+  <a class="btn">
+    <i class="icon-search"></i>
+  </a>
+  <!-- <input type="submit" class="btn" value="Поиск" /> -->
+  </div>
+</form>
+
+<div class="left-nav-block">
+  <ul class="nav nav-tabs nav-stacked accordion" id="left_nav_accordion">
  					[[Wayfinder?
 						&startId=`7`
 						&level=`2`
 						&outerTpl=`tpl.Wayfinder.outer`
-						&parentRowTpl=`tpl.Wayfinder.row.parent`
-						&innerRowTpl=`tpl.Wayfinder.row.inner`
+						&parentRowTpl=`tpl.Wayfinder.row.parent.leftMenu`
+						&innerRowTpl=`tpl.Wayfinder.row.inner.leftMenu`
 						&rowTpl=`tpl.Wayfinder.row.leftMenu`
 					]]
 	 </ul>
-</div>
-
-<div class="search-block round-block">
-  <form class="form-search">
-    <input type="text" class="input-medium search-query">
-    <button type="submit" class="btn">Search</button>
-  </form>
 </div>
 
 <div class="left-banner-block">

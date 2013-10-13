@@ -4,6 +4,27 @@ footer {
 }
 
 footer .container {
-  background: #242424;
   height: 100%;
+  color: white;
+  background: #242424;
+}
+
+footer .nav {
+  margin-bottom: 4px;
+}
+
+footer p {
+  color: #5b5b5b;
+  text-align: right;
+  margin-right: 50px;
+}
+
+footer .nav a {
+  color: #5b5b5b;
+}
+
+footer .nav .active a,
+footer .nav :hover a {
+  background: none;
+  color: #fff;
 }

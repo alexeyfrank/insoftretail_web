@@ -3,6 +3,10 @@
   background: gray;
 }
 
+.left-nav-block {
+  background: white;
+}
+
 .left-nav-block .icon-chevron-right {
   text-align: center;
   float: right;
@@ -59,3 +63,14 @@ you can use the generic selector below, but it's slower:
 	content: "\e006";
 }
 
+
+/* .form-search .input-append { */
+/*   width: 100%; */
+/* } */
+/* .form-search input[type=text] { */
+/*   width: 70%; */
+/* } */
+/*  */
+/* .form-search input[type=submit] { */
+/*   width: 25%; */
+/* } */
