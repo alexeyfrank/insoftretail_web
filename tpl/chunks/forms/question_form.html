@@ -1,14 +1,14 @@
 [[!FormIt? 
   &hooks=`formit2resource,redirect`
-  &redirectTo=`68`
-  &validate=`email:required,phone:required,pagetitle:required,notify_about_center_events:required,process_personal_data:required`
-  &template=`5`
+  &redirectTo=`25`
+  &validate=`longtitle:required,description:required,pagetitle:required,content:required`
+  &template=`7`
 ]]
 
 <form action="[[~[[*id]]]]" method="post" enctype="multipart/form-data">
   <input type="hidden" name="nospam:blank" />
 	<input type="hidden" name="resource_id" value="[[+fi.id]]" />
-	<input id="parent" type="hidden" name="parent" value="69" />
+	<input id="parent" type="hidden" name="parent" value="23" />
 
   <div class="modal-header">
     <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>

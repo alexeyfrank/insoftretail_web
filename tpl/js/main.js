@@ -17,7 +17,7 @@ function initModalUrls() {
 
   $modal.on('click', '.btn-submit', function() {
     var $modalForm = $modal.find('form'),
-        formUrl = $modalForm.attr('href'),
+        formUrl = $modalForm.attr('action'),
         data = $modalForm.serialize();
 
     $.post(formUrl, data, function(data) {
