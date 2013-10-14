@@ -1,0 +1,48 @@
+[[!FormIt? 
+  &hooks=`formit2resource,redirect`
+  &redirectTo=`68`
+  &validate=`email:required,phone:required,pagetitle:required,notify_about_center_events:required,process_personal_data:required`
+  &template=`5`
+]]
+
+<form action="[[~[[*id]]]]" method="post" enctype="multipart/form-data">
+  <input type="hidden" name="nospam:blank" />
+	<input type="hidden" name="resource_id" value="[[+fi.id]]" />
+	<input id="parent" type="hidden" name="parent" value="69" />
+
+  <div class="modal-header">
+    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+    <h3>Задать вопрос</h3>
+  </div>
+  <div class="modal-body">
+
+
+    <div class="control-group error">
+      <label><abbr title="required">*</abbr> ФИО</label>
+      <input class="field span5" type="text" name="pagetitle" value="[[+fi.pagetitle]]" />
+      <p class="help-inline">[[+fi.error.pagetitle]]</p>
+
+      <br /> 
+
+      <label><abbr title="required">*</abbr> Телефон</label>
+      <input class="field span5" type="text" name="longtitle" value="[[+fi.longtitle]]" />
+      <p class="help-inline">[[+fi.error.longtitle]]</p>
+
+      <br />
+
+      <label><abbr title="required">*</abbr> Email</label>
+      <input class="field span5" type="text" name="description" value="[[+fi.description]]" />
+      <p class="help-inline">[[+fi.error.description]]</p>
+      <br /> 
+
+      <label><abbr title="required">*</abbr>Ваш Вопрос</label>
+      <textarea class="field span5" name="content">[[+fi.content]]</textarea>
+      <p class="help-inline">[[+fi.error.content]]</p>
+      <br /> 
+    </div>
+
+  </div>
+  <div class="modal-footer">
+    <a href="#" class="btn btn-primary btn-submit">Отправить</a>
+  </div>
+</form>
