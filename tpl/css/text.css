@@ -4,3 +4,15 @@
   font-family: 'PT Sans Narrow', sans-serif;
   font-size: 17px;
 }
+
+.breadcrumb {
+  background: none;
+  border-bottom: 1px solid gray;
+  border-radius: 0;
+}
+
+.breadcrumb a {
+  text-shadow: none;
+}
+
+

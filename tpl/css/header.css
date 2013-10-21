@@ -77,6 +77,10 @@ header {
   margin-top: 10px;
 }
 
+.phone-block .phone {
+  margin: 0 10px;
+}
+
 .call-block {
   margin-top: 64px;
 }
@@ -118,18 +122,6 @@ header {
   color: white;
   text-shadow: none;
 }
-
-.breadcrumb {
-  background: none;
-  line-height: 35px;
-  color: white;
-}
-
-.breadcrumb a {
-  color: white;
-  text-shadow: none;
-}
-
 header .banner-block {
   height: 115px;
   background: gray;
