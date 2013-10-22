@@ -2,11 +2,11 @@
   [[$Breadcrumb]]
   [[*content]]
 
-  <div class="list catalog_list container-fluid">
+  <div class="list catalog_category_list container-fluid">
 	  [[!getPage?
       &parents=`[[*id]]`
       &element=`getResources`
-      &tpl=`_CatalogItem`
+      &tpl=`_CatalogCategoryItem`
       &limit=`6`
       &depth=`0`
       &pageActiveTpl=`<li[[+activeClasses:default=` class="active"`]]><a[[+activeClasses:default=` class="active"`]][[+title]] href="[[+href]]">[[+pageNo]]</a></li>`
