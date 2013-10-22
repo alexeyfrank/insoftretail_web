@@ -1,7 +1,22 @@
 .article-list {
-
 }
 
-.article-item {
-  border-bottom: 1px solid gray;
+.article-item .article-item-date {
+}
+
+.article-item .article-item-header {
+  margin-top: 0px;
+}
+
+.article-item .article-item-header a {
+  font-size: 24px;
+}
+
+.article-item .article-item-body {
+  margin-bottom: 10px;
+  /* border-bottom: 1px solid gray; */
+}
+
+.article-item .article-item-buttons {
+  height: 40px;
 }
