@@ -26,5 +26,8 @@
   width: 120px;
   height: 140px;
 }
+.catalog_list-catalog_item_price {
+  font-size: 16px;
+}
 
 .catalog_list-catalog_item_intro {}

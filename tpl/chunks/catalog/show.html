@@ -8,7 +8,13 @@
   <div class="container-fluid">
     <div class="row-fluid">
       <div class="span2">
-        <img src="[[+tv.item_preview_img]]" class="catalog_list-catalog_item_preview" />
+        <img src="[[*item_preview_img]]" class="catalog_list-catalog_item_preview" />
+        <br />
+        <br />
+        <span class="label label-success catalog_list-catalog_item_price">Цена: [[*item_price]]</span>
+        <br />
+        <br />
+        <a href="#" class="btn btn-info">Заказать</a>
       </div>
       <div class="span10">
         [[*content]]
